@@ -994,7 +994,7 @@ section,
   background: color-mix(in srgb, var(--surface-color), transparent 20%);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
-  width: 100%;
+  width: 80%;
 }
 
 .hero .content .icon-box i {
