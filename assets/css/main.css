@@ -1657,8 +1657,8 @@ section,
   color: var(--contrast-color);
   background: var(--accent-color);
   font-size: 20px;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
