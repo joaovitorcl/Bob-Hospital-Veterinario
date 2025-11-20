@@ -1315,7 +1315,7 @@ section,
   height: 100%;
 }
 
-@media (max-width: 468px) {
+@media (max-width: 600px) {
   .doctors .team-member {
     flex-direction: column;
     justify-content: center !important;
