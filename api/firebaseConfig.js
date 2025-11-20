@@ -11,7 +11,7 @@ const firebaseConfig = {
 };
 
 //inicia o Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 
 //referencia o banco de dados
 var contactFormDB = firebase.database().ref('teste-momento-bc730');
