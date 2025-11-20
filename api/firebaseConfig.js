@@ -14,4 +14,20 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 //referencia o banco de dados
-firebase.database().ref('FormularioContato')
+var contactFormDB = firebase.database().ref('FormularioContato');
+
+document.getElementById('FormularioContato').addEventListener("submit", SubmitForm)
+
+function SubmitForm(e){
+  e.preventDefault();
+  var nome = getElementVal(nome);
+  var email = getElementVal(emailid);
+  var assunto = getElementVal(assunto);
+  var mensagem = getElementVal(mensagem);
+
+  console.log (nome, email, assunto, mensagem);
+}
+
+const getElementVal = (id) => {
+  return document.getElementById(id).value;
+}
