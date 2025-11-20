@@ -14,7 +14,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 //referencia o banco de dados
-var contactFormDB = firebase.database().ref('FormularioContato');
+var contactFormDB = firebase.database().ref('teste-momento-bc730');
 
 document.getElementById('FormularioContato').addEventListener("submit", SubmitForm)
 
