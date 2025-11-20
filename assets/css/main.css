@@ -1231,7 +1231,7 @@ section,
   background: var(--accent-color);
   border: 0;
   padding: 10px 35px;
-  color: #c90000;
+  color: #cc1919;
   transition: 0.4s;
   border-radius: 50px;
 }
@@ -1710,7 +1710,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #cc1919;
   border: 0;
   padding: 10px 36px;
   transition: 0.4s;
