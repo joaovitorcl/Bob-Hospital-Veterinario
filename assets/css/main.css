@@ -924,8 +924,8 @@ section,
 }
 
 .imagem-redonda {
-  width: 200px; /* Defina a largura */
-  height: 200px; /* Defina a altura igual à largura */
+  width: 386px; /* Defina a largura */
+  height: 355px; /* Defina a altura igual à largura */
   border-radius: 50%; /* Define as bordas como um círculo */
   object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
 }
