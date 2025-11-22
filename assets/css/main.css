@@ -923,12 +923,6 @@ section,
   overflow: hidden;
 }
 
-.imagem-redonda {
-  width: 386px; /* Defina a largura */
-  height: 355px; /* Defina a altura igual à largura */
-  border-radius: 50%; /* Define as bordas como um círculo */
-  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
-}
 
 .hero img {
   position: absolute;
